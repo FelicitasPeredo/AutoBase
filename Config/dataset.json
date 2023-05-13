@@ -1,0 +1,12 @@
+{
+    "test": "exercise",
+    "scenario_1" : {
+        "test_name_1": "Test Button Name 1"
+    },
+    "scenario_2" : {
+        "test_name_2": "Test Button Name 2"
+    },
+    "scenario_3" : {
+        "test_name_3": "Test Button Name 3"
+    }
+}
