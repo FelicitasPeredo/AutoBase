@@ -16,5 +16,5 @@ class TestExercisePage():
     def test_textInputExercise(self, testName, newButtonName, init_driver):
         logger = Logger.initLogger(testName, io.StringIO())
         exercisePage = ExercisePage(init_driver)
-        flag = exercisePage.do_exercise(newButtonName, testName, logger)
+        flag = exercisePage.do_exercise(newButtonName['test_name'], testName, logger)
         assert flag
